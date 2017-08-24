@@ -1,0 +1,2 @@
+ ErrorDocument 403 http://vatell.net/index.php
+ Options -Indexes
