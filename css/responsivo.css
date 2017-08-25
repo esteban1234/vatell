@@ -1,0 +1,396 @@
+@media screen and (max-width: 480px){
+
+  .op-menu{
+    display: block;
+    position: fixed;
+    top: 42px;
+    left: 20px;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .logo{
+    width: 50%;
+    margin: auto;
+    float: none !important;
+  }
+
+  nav{
+    width: 100%;
+    margin: auto;
+    float: none !important;
+    display: none;
+  }
+
+  nav ul .selector{
+    display: block;
+    text-align: center;
+    padding: 10px 0px;
+    border-bottom: .1px solid #2B2971;
+  }
+
+  .text-banner{
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px 2px;
+  }
+
+  .bannerh{
+    height: 100%;
+  }
+
+  .btn-contacto{
+    margin-bottom: 20px !important;
+  }
+
+  .text-dise-nosotros, .text-dise-ser{
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .text-nosotros{
+    text-align: justify;
+    margin-top: 0px !important;
+  }
+
+  .margen-arriba{
+    margin-top: 0px !important;
+  }
+
+  .iconos i{
+    font-size: 30px;
+  }
+
+
+  .iconos span{
+    display: none;
+  }
+
+
+  .tit-key{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .add-margen{
+    margin-top: 30px;
+  }
+
+  .text-alineado{
+    text-align: justify;
+  }
+
+  .banner2{
+    height: 100%;
+  }
+
+  .banner2 p{
+    margin-bottom: 30px;
+  }
+
+  .txt-add-dis{
+    text-align: justify;
+  }
+
+  .seccion2{
+    padding: 0px !important;
+  }
+
+  .seccion3{
+    margin-top: 30px;
+    padding: 0px !important;
+  }
+
+  .seccion3 br{
+    display: none;
+  }
+
+  .br-contacto{
+    border-bottom: .5px solid rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+  }
+
+  .form-horizontal{
+    /*border: 2px solid red;*/
+  }
+
+  .add-h3{
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  footer{
+    height: 100%;
+  }
+
+  footer p{
+    width: 90%;
+    margin-bottom: 12px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+  .op-menu{
+    display: block;
+    position: fixed;
+    top: 42px;
+    left: 20px;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .logo{
+    width: 40%;
+    margin: auto;
+    float: none !important;
+  }
+
+  nav{
+    width: 100%;
+    margin: auto;
+    float: none !important;
+    display: none;
+  }
+
+  nav ul .selector{
+    display: block;
+    text-align: center;
+    padding: 10px 0px;
+    border-bottom: .1px solid #2B2971;
+  }
+
+  .text-banner{
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px 2px;
+  }
+
+  .bannerh{
+    height: 100%;
+  }
+
+  .btn-contacto{
+    margin-bottom: 20px !important;
+  }
+
+  .text-dise-nosotros, .text-dise-ser{
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .text-nosotros{
+    text-align: justify;
+    margin-top: 0px !important;
+  }
+
+  .margen-arriba{
+    margin-top: 0px !important;
+  }
+
+  .iconos i{
+    font-size: 30px;
+  }
+  
+  .iconos span{
+    display: none;
+  }
+
+  .tit-key{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .add-margen{
+    margin-top: 30px;
+  }
+
+  .text-alineado{
+    text-align: justify;
+  }
+
+  .banner2{
+    height: 100%;
+  }
+
+  .banner2 p{
+    margin-bottom: 30px;
+  }
+
+  .txt-add-dis{
+    text-align: justify;
+  }
+
+  .seccion2{
+    padding: 0px !important;
+  }
+
+  .seccion3{
+    margin-top: 30px;
+    padding: 0px !important;
+  }
+
+  .seccion3 br{
+    display: none;
+  }
+
+  .br-contacto{
+    border-bottom: .5px solid rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+  }
+
+  .form-horizontal{
+    /*border: 2px solid red;*/
+  }
+
+  .add-h3{
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  footer{
+    height: 100%;
+  }
+
+  footer p{
+    width: 90%;
+    margin-bottom: 12px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+  .op-menu{
+    display: block;
+    position: fixed;
+    top: 42px;
+    left: 20px;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .logo{
+    width: 40%;
+    margin: auto;
+    float: none !important;
+  }
+
+  nav{
+    width: 100%;
+    margin: auto;
+    float: none !important;
+    display: none;
+  }
+
+  nav ul .selector{
+    display: block;
+    text-align: center;
+    padding: 10px 0px;
+    border-bottom: .1px solid #2B2971;
+  }
+
+  .text-banner{
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px 2px;
+  }
+
+  .bannerh{
+    height: 100%;
+  }
+
+  .btn-contacto{
+    margin-bottom: 20px !important;
+  }
+
+  .text-dise-nosotros, .text-dise-ser{
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .text-nosotros{
+    text-align: justify;
+    margin-top: 0px !important;
+  }
+
+  .margen-arriba{
+    margin-top: 0px !important;
+  }
+
+  .iconos i{
+    font-size: 30px;
+  }
+
+  .iconos span{
+    /*border: 2px solid red;*/
+    display: none;
+  }
+
+  .tit-key{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .add-margen{
+    margin-top: 30px;
+  }
+
+  .text-alineado{
+    text-align: justify;
+  }
+
+  .banner2{
+    height: 100%;
+  }
+
+  .banner2 p{
+    margin-bottom: 30px;
+  }
+
+  .txt-add-dis{
+    text-align: justify;
+  }
+
+  .seccion2{
+    padding: 0px !important;
+  }
+
+  .seccion3{
+    margin-top: 30px;
+    padding: 0px !important;
+  }
+
+  .seccion3 br{
+    display: none;
+  }
+
+  .br-contacto{
+    margin-bottom: 20px;
+  }
+
+  .add-h3{
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  footer{
+    height: 100%;
+  }
+
+  footer p{
+    width: 90%;
+    margin-bottom: 12px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+}
+@media screen and (max-width: 1366px) and (min-width: 1024px) { }
+
+@media screen and (min-width: 1367px) { }

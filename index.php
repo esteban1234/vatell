@@ -2,7 +2,7 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
-    
+
     <link rel="icon" type="image/png" href="img/favicon.png" />
     <title>ADMINISTRADORA VATELL</title>
    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -25,11 +25,11 @@
     <script src="js/smooth-scroll.min.js"></script>
     <script>
       smoothScroll.init({
-      selector: '[data-scroll]', 
-      selectorHeader: null, 
-      speed: 2000, 
-      easing: 'easeInOutCubic', 
-      offset: 0, 
+      selector: '[data-scroll]',
+      selectorHeader: null,
+      speed: 2000,
+      easing: 'easeInOutCubic',
+      offset: 0,
       callback: function ( anchor, toggle ) {}
       });
     </script>
@@ -37,13 +37,13 @@
   </head>
   <body>
 <div class="bannerh" id="INICIO">
-  <header >
+  <header>
     <figure class="logo pull-left">
       <img src="img/vatell.png" class="img-responsive" alt="VATELL">
     </figure>
-    <div class="op-menu">
+    <!-- <div class="op-menu">
       <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
-    </div>
+    </div> -->
     <nav class="pull-right">
       <ul>
         <a class="selector" id="select" data-scroll href="#INICIO" aria-pressed="true">INICIO</a>
@@ -52,16 +52,19 @@
         <a class="selector" data-scroll href="#CONTACTO" aria-pressed="true">CONTACTO</a>
       </ul>
     </nav>
+    <div class="op-menu">
+      <i class="fa fa-bars fa-2x abrir" aria-hidden="true"></i>
+    </div>
   </header>
 
   <p class="text-banner">GRAN EMPRESA DE CALIDAD, <br> REPRESENTACIÓN PROFESIONAL </p>
 
-  <div style="text-align: center; margin-top: 5%;">
+  <div class="btn-contacto" style="text-align: center; margin-top: 5%;">
       <a class="btn btn-danger  btn-lg" data-scroll href="#CONTACTO">¡CONTACTANOS!</a>
   </div>
 </div>
 
-  
+
 
   <span class="ir-arriba"><i class="fa fa-arrow-up" aria-hidden="true"></i></span>
 
@@ -78,26 +81,26 @@
 
 
         <div class="row margen-arriba">
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-4 add-margen">
             <div class="iconos">
               <i class="fa fa-check-square-o fa-3x fa-border " aria-hidden="true"></i>
             </div>
-            <h2 class="text-center">MISION</h2>
+            <h2 class="text-center tit-key">MISION</h2>
             <p class="text-center text-alineado">Brindar a nuestros clientes servicios en el cumplimiento de obligaciones Fiscales, Contables y Administrativas, proporcionando los servicios de Consultoría y la Asesoría Fiscal; siempre con un alto nivel de experiencia profesional, conocimiento y compromiso.</p>
           </div>
-          <div class="col-sm-6 col-md-4">
+          <div class="col-sm-6 col-md-4 add-margen">
             <div class="iconos">
               <i class="fa fa-line-chart fa-3x fa-border " aria-hidden="true"></i>
             </div>
-            <h2 class="text-center">VISION</h2>
+            <h2 class="text-center tit-key">VISION</h2>
             <p class="text-center text-alineado">Continuar como empresa pionera satisfaciendo las necesidades de nuestros clientes con la más alta calidad y a cumplir en forma veraz y en apego a las leyes vigentes los propósitos establecidos en los proyectos de trabajo.</p>
           </div>
           <div class="clearfix visible-sm-block"></div>
-          <div class="col-md-4">
+          <div class="col-md-4 add-margen">
             <div class="iconos">
               <i class="fa fa-handshake-o fa-3x fa-border " aria-hidden="true"></i>
             </div>
-            <h2 class="text-center">VALORES</h2>
+            <h2 class="text-center tit-key">VALORES</h2>
             <p class="text-center">
              Trabajo en equipo <br>
                Responsabilidad <br>
@@ -124,8 +127,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="text-center text-danger">SERVICIOS</h1>
-          <p class="lead text-center textt-nosotros">Nos esforzamos por ofrecer a nuestros clientes el mejor servicio para que tengan una experiencia exitosa con nosotros.</p>
+          <h1 class="text-center text-danger text-dise-ser">SERVICIOS</h1>
+          <p class="lead text-center textt-nosotros txt-add-dis">Nos esforzamos por ofrecer a nuestros clientes el mejor servicio para que tengan una experiencia exitosa con nosotros.</p>
         </div>
       </div>
        <div class="row margen-arriba">
@@ -137,7 +140,7 @@
               </span>
             </div>
             <h3 class="text-center text-subtit">SERVICIOS CONTABLES</h3>
-            <p class="text-center">Registrar las transacciones económicas que realiza las empresa de forma correcta y oportuna.</p>
+            <p class="text-center txt-add-dis">Registrar las transacciones económicas que realiza las empresa de forma correcta y oportuna.</p>
           </div>
           <div class="col-xs-12 col-sm-4 col-md-4">
            <div class="iconos">
@@ -147,7 +150,7 @@
               </span>
             </div>
             <h3 class="text-center text-subtit">AUDITORÍA FINANCIERA </h3>
-            <p class="text-center">Examina a los estados financieros y a través de ellos las operaciones financieras realizadas por el ente contable, con la finalidad de emitir una opinión técnica y profesional.</p>
+            <p class="text-center txt-add-dis">Examina a los estados financieros y a través de ellos las operaciones financieras realizadas por el ente contable, con la finalidad de emitir una opinión técnica y profesional.</p>
           </div>
           <div class="col-xs-12 col-sm-4 col-md-4">
             <div class="iconos">
@@ -170,17 +173,18 @@
               </span>
             </div>
             <h3 class="text-center text-subtit">AUDITORIA INTERNA</h3>
-            <p class="text-center">Consta de la elaboración e implantación de controles internos que aseguren el flujo de la información, la optimización de los recursos y el control para la protección de los activos, y así eliminar errores del personal que se traducen en pérdida de tiempo y dinero. </p>
+            <p class="text-center txt-add-dis">Consta de la elaboración e implantación de controles internos que aseguren el flujo de la información, la optimización de los recursos y el control para la protección de los activos, y así eliminar errores del personal que se traducen en pérdida de tiempo y dinero. </p>
           </div>
           <div class="col-xs-12 col-sm-6 col-md-4">
            <div class="iconos">
               <span class="fa-stack fa-4x">
                 <i class="fa fa-circle fa-stack-2x"></i>
                 <i class="fa fa-id-card fa-stack-1x fa-inverse"></i>
+                <!-- <i class="fa fa-clock-o fa-3x fa-border text-danger" aria-hidden="true"></i> -->
               </span>
             </div>
             <h3 class="text-center text-subtit">COMUNICACION E IMAGEN</h3>
-            <p class="text-center">Garantizamos la prestación de estos servicios de forma profesional, puntual y oportuna, que permiten a la empresa emprender un rediseño o actualización de su imagen, conforme a los estándares más innovadores del mercado.</p>
+            <p class="text-center txt-add-dis">Garantizamos la prestación de estos servicios de forma profesional, puntual y oportuna, que permiten a la empresa emprender un rediseño o actualización de su imagen, conforme a los estándares más innovadores del mercado.</p>
           </div>
 
         </div>
@@ -201,21 +205,21 @@
       </div> <br><br><br>
 
       <div class="row">
-          <div class="col-sm-6 col-md-3">
+          <div class="col-sm-6 col-md-3 br-contacto">
             <div class="iconos">
               <i class="fa fa-clock-o fa-3x fa-border text-danger" aria-hidden="true"></i>
             </div>
             <h2 class="text-center">Horario</h2>
             <p class="text-center">Lunes a Viernes de 9 am a 6 pm</p>
           </div>
-          <div class="col-sm-6 col-md-3">
+          <div class="col-sm-6 col-md-3 br-contacto">
             <div class="iconos">
               <i class="fa fa-envelope-o fa-3x fa-border text-danger" aria-hidden="true"></i>
             </div>
             <h2 class="text-center">Correo</h2>
             <p class="text-center">info@vatell.net</p>
           </div>
-          <div class="col-sm-6 col-md-3">
+          <div class="col-sm-6 col-md-3 br-contacto">
             <div class="iconos">
               <i class="fa fa-phone fa-3x fa-border text-danger" aria-hidden="true"></i>
             </div>
@@ -224,7 +228,7 @@
             </p>
           </div>
 
-          <div class="col-sm-6 col-md-3">
+          <div class="col-sm-6 col-md-3 br-contacto">
             <div class="iconos">
               <i class="fa fa-map-marker fa-3x fa-border text-danger" aria-hidden="true"></i>
             </div>
@@ -236,7 +240,7 @@
     </div>
   </div>
   <div class="mapa">
-        
+
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1881.8336169176364!2d-99.15830038145322!3d19.38355621382235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ffa7cf151411%3A0xc0d68e7285dd07c1!2sCalle+San+Borja+1208%2C+Narvarte+Poniente%2C+03020+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses-419!2smx!4v1503597077715" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
 </section>
@@ -247,30 +251,31 @@
               <h2>Formulario de contacto</h2> <br>
               <p>Escribenos tus comentario, dudas o preguntas, estamos para servirte.</p> <br><br>
               <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                  <form class="form-horizontal">
+                <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
+                  <form class="form-horizontal" onSubmit="return false">
                     <div class="form-group">
                       <label for="exampleInputName2">Nombre completo</label>
-                      <input type="text" class="form-control" id="exampleInputName2" placeholder="Escribe tu nombre completo">
+                      <input type="text" class="form-control" id="txtNOMBRE" placeholder="Escribe tu nombre completo">
                     </div>
                     <div class="form-group">
                       <label for="exampleInputName2">Teléfono</label>
-                      <input type="text" class="form-control" id="exampleInputName2" placeholder="Escribe tu teléfono">
+                      <input type="tel" class="form-control" id="txtTELEFONO" placeholder="Escribe tu teléfono">
                     </div>
                     <div class="form-group">
                       <label for="exampleInputEmail2">Correo</label>
-                      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Escribe tu correo eléctronico">
+                      <input type="email" class="form-control" id="txtCORREO" placeholder="Escribe tu correo eléctronico">
                     </div>
                     <div class="form-group ">
                       <label for="exampleInputText">Mensaje</label>
-                     <textarea  class="form-control" placeholder="Escribe tu nombre completo"></textarea> 
+                     <textarea  class="form-control" id="txtCOMENTARIO" placeholder="Escribe tu nombre completo"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-danger">ENVIAR MENSAJE</button>
+
+                    <div id="_AJAX_PRE_" ></div>
+                    <button type="submit" class="btn btn-danger" onclick="sendCORREO()">ENVIAR MENSAJE</button>
                   </form>
 
                   <hr>
-                    <h3>¿Aún tienes preguntas?</h3>
-                 
+                    <h3 class="add-h3">¿Aún tienes preguntas?</h3>
                 </div>
               </div>
             </div>
