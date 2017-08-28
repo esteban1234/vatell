@@ -2,7 +2,7 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
-
+    <meta name="google-site-verification" content="9VJrX9EJ7Z35jIx5p4SHi_QQk99J_vc4txJg7Ri7gYw" />
     <link rel="icon" type="image/png" href="img/favicon.png" />
     <title>ADMINISTRADORA VATELL</title>
    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
